@@ -27,25 +27,44 @@ Uygulamam bir mağazadaki ürünlerin, stoklarının, kategorilerinin, siparişl
 -Her ürün sipariş verildiğinde stok sayısı azalır.
 
 -Bir siparişi bir müşteri sipariş edebilir.
+
 -Bir müşteri çok sayıda sipariş verebilir.
--Her siparişin faturası, kargo firması ve alınan ürün adetine göre hesaplanan tutarı vardır.
+
+-Her siparişin faturası, kargo firması ve alınan ürün adetine göre hesaplanan tutarı vardır
+
 -Her müşterinin nosu, adı, soyadı, teli ve yaşadığı il kaydedilir.
 
 
+
 İlişkisel Şema:
+
 Urun(urunid int, ad varchar, fiyat int, kategori int, marka int, tedarikçi int)
+
 Marka(markakod int, ad varchar)
+
 Tedarikci(tedarikno int, ad varchar, tel int)
+
 Birim_kazanc(urunid int, alis_fiyati int, birimkazanc double)
+
 Stok_bilgisi(urun_id int, stok_adet int, stok_durumu varchar)
+
 Stok_azalanlar(urun_id int, stok_adet int, stok_durumu varchar)
+
 Kategori(kategori_id int, kategori_ad varchar)
+
 Kdv_degeri(kdv_orani double, kategori_id int)
+
 Yonetici(yönetici_id int, ad varchar, soyad varchar, kategori_id int)
+
 Siparis_urun(kayit_no int, sipariş_no int, urun_id int, urun_adet int)
+
 Siparis(sipariş_no int, müşteri_no int, tutar int, kargo_firmasi int)
+
 Fatura(fatura_no int, fatura_adres text, sipariş_no int)
+
 Kargo_firmasi(firma_kodu int, firma_ad varchar)
+
 Musteri(müşteri_no int, ad varchar, soyad varchar, tel double, adres_il int)
+
 Adres(il_kodu int, il_adi varchar)
 

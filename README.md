@@ -5,16 +5,27 @@ Uygulamam bir mağazadaki ürünlerin, stoklarının, kategorilerinin, siparişl
 
 İş Kuralları:
 -Bir ürünün bir id’ si, adı, kategorisi, fiyatı, markası ve tedarikçisi vardır.
+
 -Her ürünün bir birim kazancı vardır. Birim kazanç satış fiyatından alış fiyatını ve kdvli halini çıkarılıp elde edilir.
+
 -Her ürünün bir stok bilgisi vardır. Stok adeti 50’ den az olanların stok durumu “tedarik edilmeli” 50’ye eşit veya fazla olanların ise “stok yeterli” dir.
+
 -Stoku azalanlar tedarik edilmesi için yedeklenir.
+
 -Her kategorinin çok sayıda ürünü vardır.
+
 -Her kategorinin bir kdv oranı vardır.
+
 -Bir kategorinin çok yöneticisi olabilir.
+
 -Yöneticilerin nosu, adı ve soyadı kaydedilir.
+
 -Bir üründen çok kez sipariş verilebilir.
+
 -Bir siparişte çok sayıda ürün olabilir.
+
 -Her ürün sipariş verildiğinde stok sayısı azalır.
+
 -Bir siparişi bir müşteri sipariş edebilir.
 -Bir müşteri çok sayıda sipariş verebilir.
 -Her siparişin faturası, kargo firması ve alınan ürün adetine göre hesaplanan tutarı vardır.

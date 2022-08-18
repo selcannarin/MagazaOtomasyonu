@@ -2,6 +2,7 @@
 
 Uygulama Tanımı:
 Uygulamam bir mağazadaki ürünlerin, stoklarının, kategorilerinin, siparişlerin, müşterilerin ve kategorilerin yöneticilerinin bilgilerinin tutulduğu veri tabanından bilgilerini çekerek onları listelememizi, güncelleme, ekleme, silme ve arama yapmamızı sağlayan bir mağaza kontrol sistemidir.
+PostgreSQL ve C# form kullanarak yapılmıştır.
 
 İş Kuralları:
 -Bir ürünün bir id’ si, adı, kategorisi, fiyatı, markası ve tedarikçisi vardır.

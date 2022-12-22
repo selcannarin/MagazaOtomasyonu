@@ -47,7 +47,7 @@ namespace MagazaOtomasyonu
 
         private void btnMusteri_Click(object sender, EventArgs e)
         {
-            Musteri musteriler = new Musteri();
+            Costumer musteriler = new Costumer();
             formGetir(musteriler);
         }
 

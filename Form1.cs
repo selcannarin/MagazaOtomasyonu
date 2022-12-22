@@ -19,7 +19,7 @@ namespace MagazaOtomasyonu
         }
         
         NpgsqlConnection baglanti = new NpgsqlConnection("server=localHost; port=5432; Database=db_Urun; user Id=postgres; password=010203");
-
+       
         private void formGetir(Form frm)
         {
             panel1.Controls.Clear();

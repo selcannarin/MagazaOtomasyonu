@@ -5,22 +5,31 @@ Uygulamam bir mağazadaki ürünlerin, stoklarının, kategorilerinin, siparişl
 PostgreSQL ve C# form kullanarak yapılmıştır.
 
 Listeleme:
+
 ![image](https://user-images.githubusercontent.com/72921635/214440784-698b74f6-4079-43da-a40f-40e583d618de.png)
 Ekleme:
+
 ![image](https://user-images.githubusercontent.com/72921635/214440850-5406dc2b-bfc9-40de-84ff-c4111cf6f94c.png)
 Arama:
+
 ![image](https://user-images.githubusercontent.com/72921635/214440974-c165b9c9-b076-4777-8f9d-6f6e3e870ccf.png)
 Güncelleme:
+
 ![image](https://user-images.githubusercontent.com/72921635/214441028-90ea29ac-d1e7-4b1d-a0dd-f2ff5503e61e.png)
 Silme:
+
 ![image](https://user-images.githubusercontent.com/72921635/214441083-cb0b0ae9-3a93-4a81-874a-4f3fa25a29d3.png)
 Stok Bilgisi:
+
 ![image](https://user-images.githubusercontent.com/72921635/214441153-5381b9bc-969e-42ff-93b9-82cce3aee443.png)
 Siparişler:
+
 ![image](https://user-images.githubusercontent.com/72921635/214441189-d2cc3d8e-f857-45b4-ac2d-9c3a5aae2f37.png)
 Müşteriler:
+
 ![image](https://user-images.githubusercontent.com/72921635/214441219-aec2c5a5-d205-4707-a679-0971f2d60a00.png)
 Yöneticiler:
+
 ![image](https://user-images.githubusercontent.com/72921635/214441245-75a28725-980b-480c-8a87-d0b2560fe978.png)
 
 İş Kuralları:
